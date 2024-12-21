@@ -1,0 +1,28 @@
+.col {
+    font-size: 14px;
+    font-family: Plus Jakarta Sans;
+    font-weight: 600;
+    line-height: 15px;
+    word-wrap: break-word;
+
+}
+.marquee {
+    display: inline-block;
+    animation: moveLeft 10s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes moveLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+.row{
+    width: 1298px;
+}
+} */

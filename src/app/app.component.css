@@ -1,0 +1,266 @@
+/* Container styles */
+.navbar {
+  height: 94px;
+  position: relative;
+  background: white;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-content {
+  position: absolute;
+  top: 29px;
+  left: 78px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 397px;
+}
+
+/* Section styles */
+.nav-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.nav-section .title {
+  color: black;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.nav-section .divider {
+  align-self: stretch;
+  height: 1px;
+  background: black;
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 39px;
+}
+
+.nav-link {
+  width: 45.22px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.nav-link .link {
+  align-self: stretch;
+  height: 24px;
+  color: black;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+  text-decoration: none;
+}
+
+.nav-link .divider {
+  align-self: stretch;
+  height: 1px;
+  background: black;
+}
+
+/* Contact email */
+.nav-contact {
+  color: black;
+  font-size: 14px;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 1px;
+  word-wrap: break-word;
+}
+
+.adithya-home {
+  background-image: url(../assets/adithya-home.svg);
+  height: 132vh;
+  background-size: cover;
+}
+
+.adi-img {
+  position: relative;
+  left: 6%;
+  top: 252px;
+}
+
+.collection-text {
+  color: black;
+  font-size: 32px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  line-height: 38.40px;
+  word-wrap: break-word;
+  margin-top: 66px;
+  margin-bottom: 60px;
+
+}
+
+.collection-text-span {
+  position: relative;
+  left: 98px;
+}
+
+.excellence {
+  background-image: url(../assets/adithya-excellence.svg);
+  height: 132vh;
+  background-size: cover;
+  margin-top: 100px;
+}
+
+.more-collections {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.more-text {
+  color: black;
+  font-size: 32px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 600;
+  line-height: 38.40px;
+  word-wrap: break-word
+}
+
+.more-text-2 {
+  display: flex;
+  justify-content: center;
+  color: black;
+  font-size: 16px;
+  font-family: Plus Jakarta Sans;
+  font-weight: 500;
+  line-height: 27.20px;
+  word-wrap: break-word;
+  margin-top: 15px;
+}
+
+
+
+
+
+/* Full-Screen Image Viewer */
+.image-viewer {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.image-viewer img {
+  width: 100%;
+  height: 100%;
+}
+
+.image-viewer .controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.image-viewer .controls button {
+  background-color: rgba(255, 255, 255, 0.7);
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 10px;
+}
+
+.image-viewer .controls button:hover {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+
+app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Ensures it's on top of other elements */
+  background-color: white;
+  /* Optional, to avoid transparency issues */
+}
+
+.navbar {
+  position: sticky;
+  top: 39px;
+  z-index: 999;
+  /* Ensures it stays below the header */
+  background-color: white;
+  /* Optional */
+}
+
+.active {
+  text-decoration: underline !important;
+}
+
+@media (min-width: 1550px) and (max-width: 1999px) {
+  .navbar-content {
+    gap: 550px !important;
+  }
+
+  .adi-img {
+    top: 354px;
+  }
+}
+
+/* @media only screen and (max-width: 768px) {
+  .navbar-content {
+    gap: 319px;
+  }
+
+  .navbar {
+    width: 362%;
+  }
+
+  .adithya-home {
+    width: 194vh;
+  }
+
+  .collect {
+    justify-content: flex-start !important;
+    gap: 10px !important;
+  }
+
+  .excellence {
+    width: 194vh;
+  }
+
+  .collection-text-span {
+    left: 58px !important;
+  }
+  .more-text,.more-text-2{
+    position: relative;
+    left: 120%;
+  }
+  .more-collect{
+    justify-content: flex-start !important;
+    gap: 11px !important;
+  }
+} */
