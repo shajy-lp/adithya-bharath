@@ -90,7 +90,7 @@
 }
 
 .adithya-home {
-  background-image: url(../assets/adithya-home.svg);
+  background-image: url(./assets/adithya-home.svg);
   height: 132vh;
   background-size: cover;
 }
@@ -119,7 +119,7 @@
 }
 
 .excellence {
-  background-image: url(../assets/adithya-excellence.svg);
+  background-image: url(./assets/adithya-excellence.svg);
   height: 132vh;
   background-size: cover;
   margin-top: 100px;

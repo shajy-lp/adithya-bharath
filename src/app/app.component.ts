@@ -14,22 +14,22 @@ import { FooterComponent } from './components/footer/footer/footer.component';
 export class AppComponent {
   title = 'adithya-bharath';
   images = [
-    { src: '../assets/DSC06482 2.svg' },
-    { src: '../assets/DSC06711 2.svg' },
-    { src: '../assets/DSC06663 2.svg' },
-    { src: '../assets/DSC06492 2.svg' },
-    { src: '../assets/DSC06760 2.svg' }
+    { src: './assets/DSC06482 2.svg' },
+    { src: './assets/DSC06711 2.svg' },
+    { src: './assets/DSC06663 2.svg' },
+    { src: './assets/DSC06492 2.svg' },
+    { src: './assets/DSC06760 2.svg' }
   ];
   imagesSec = [
-    { src: '../assets/DSC06549 1.svg' },
-    { src: '../assets/DSC06590 1.svg' },
-    { src: '../assets/DSC06760 1.svg' },
-    { src: '../assets/DSC06601 1.svg' },
-    { src: '../assets/DSC06448 1.svg' },
-    { src: '../assets/DSC06667 1.svg' },
-    { src: '../assets/DSC06546 1.svg' },
-    { src: '../assets/DSC06724 1.svg' },
-    { src: '../assets/DSC06501 1.svg' }
+    { src: './assets/DSC06549 1.svg' },
+    { src: './assets/DSC06590 1.svg' },
+    { src: './assets/DSC06760 1.svg' },
+    { src: './assets/DSC06601 1.svg' },
+    { src: './assets/DSC06448 1.svg' },
+    { src: './assets/DSC06667 1.svg' },
+    { src: './assets/DSC06546 1.svg' },
+    { src: './assets/DSC06724 1.svg' },
+    { src: './assets/DSC06501 1.svg' }
   ];
 
   isImageViewerOpen = false;
